@@ -29,7 +29,7 @@ The README was written from the repository contents, including its manifest file
 
 ## Project Structure
 
-`	ext
+```text
 .
 |-- .cache
 |-- emotion_model.keras
@@ -37,15 +37,15 @@ The README was written from the repository contents, including its manifest file
 |-- README.md
 |-- requirements.txt
 |-- Untitled1.ipynb
-`
+```
 
 ## Setup
 
-`ash
+```bash
 python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
-`
+```
 
 ## What This Project Demonstrates
 
