@@ -1,30 +1,59 @@
+<div align="center">
+
 # ExpreMusic Mood Player
 
-Mood-based music app that detects facial expressions and plays matching Spotify playlists.
+Music player concept that adapts playback around mood or expression.
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+
+[Repository](https://github.com/theadhithyankr/expremusic-mood-player)
+
+</div>
+
+## Overview
+
+ExpreMusic Mood Player is a music experience project in the TheAdhithyanKR/expremusic-mood-player repository. Mood-based music app that detects facial expressions and plays matching Spotify playlists.
+
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The commands below are based on the build files present in the repository.
 
 ## Key Features
-- Mood-based music app that detects facial expressions and plays matching Spotify playlists
-- Backend/runtime files are documented alongside the frontend or app layer when the repository includes them.
+
+- Mood-oriented playback experience
+- Player interface for browsing or triggering music
+- AI-friendly concept for connecting signals to recommendations
+- Frontend structure suitable for a polished media demo
 
 ## Tech Stack
+
 - Python
 
 ## Project Structure
-- Key files: requirements.txt.
 
-## Setup and Run
-```bash
-git clone https://github.com/theadhithyankr/expremusic-mood-player.git
-cd expremusic-mood-player
+`	ext
+.
+|-- .cache
+|-- emotion_model.keras
+|-- emotion_spotify_player/requirements.txt
+|-- README.md
+|-- requirements.txt
+|-- Untitled1.ipynb
+`
+
+## Setup
+
+`ash
 python -m venv .venv
-.\\.venv\\Scripts\\Activate.ps1
+.\.venv\Scripts\activate
 pip install -r requirements.txt
-python app.py
-```
+`
 
 ## What This Project Demonstrates
-- Connecting application interfaces to Python services, ML workflows, or backend APIs.
-- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
 
-## Repository
-- GitHub: https://github.com/theadhithyankr/expremusic-mood-player
+- Ability to turn a focused product idea into a working codebase
+- Practical use of the repository's chosen framework and tooling
+- Attention to deployable structure, repeatable setup, and portfolio-ready presentation
+- Project-specific implementation around music experience
+
+## Links
+
+- Repository: [https://github.com/theadhithyankr/expremusic-mood-player](https://github.com/theadhithyankr/expremusic-mood-player)
